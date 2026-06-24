@@ -195,130 +195,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="FRC696">
-<packages>
-<package name="FEATHER">
-<hole x="2.54" y="2.54" drill="3.2"/>
-<hole x="48.26" y="2.54" drill="3.2"/>
-<hole x="48.26" y="20.32" drill="3.2"/>
-<hole x="2.54" y="20.32" drill="3.2"/>
-<wire x1="2.54" y1="0" x2="48.26" y2="0" width="0.127" layer="21"/>
-<wire x1="48.26" y1="0" x2="50.8" y2="2.54" width="0.127" layer="21" curve="90"/>
-<wire x1="50.8" y1="2.54" x2="50.8" y2="20.32" width="0.127" layer="21"/>
-<wire x1="50.8" y1="20.32" x2="48.26" y2="22.86" width="0.127" layer="21" curve="90"/>
-<wire x1="48.26" y1="22.86" x2="2.54" y2="22.86" width="0.127" layer="21"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="20.32" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="20.32" x2="0" y2="2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
-<pad name="1" x="6.35" y="1.27" drill="0.8"/>
-<pad name="2" x="8.89" y="1.27" drill="0.8"/>
-<pad name="3" x="11.43" y="1.27" drill="0.8"/>
-<pad name="4" x="13.97" y="1.27" drill="0.8"/>
-<pad name="5" x="16.51" y="1.27" drill="0.8"/>
-<pad name="6" x="19.05" y="1.27" drill="0.8"/>
-<pad name="7" x="21.59" y="1.27" drill="0.8"/>
-<pad name="8" x="24.13" y="1.27" drill="0.8"/>
-<pad name="9" x="26.67" y="1.27" drill="0.8"/>
-<pad name="10" x="29.21" y="1.27" drill="0.8"/>
-<pad name="11" x="31.75" y="1.27" drill="0.8"/>
-<pad name="12" x="34.29" y="1.27" drill="0.8"/>
-<pad name="13" x="36.83" y="1.27" drill="0.8"/>
-<pad name="14" x="39.37" y="1.27" drill="0.8"/>
-<pad name="15" x="41.91" y="1.27" drill="0.8"/>
-<pad name="16" x="44.45" y="1.27" drill="0.8"/>
-<pad name="17" x="44.45" y="21.59" drill="0.8"/>
-<pad name="18" x="41.91" y="21.59" drill="0.8"/>
-<pad name="19" x="39.37" y="21.59" drill="0.8"/>
-<pad name="20" x="36.83" y="21.59" drill="0.8"/>
-<pad name="21" x="34.29" y="21.59" drill="0.8"/>
-<pad name="22" x="31.75" y="21.59" drill="0.8"/>
-<pad name="23" x="29.21" y="21.59" drill="0.8"/>
-<pad name="24" x="26.67" y="21.59" drill="0.8"/>
-<pad name="25" x="24.13" y="21.59" drill="0.8"/>
-<pad name="26" x="21.59" y="21.59" drill="0.8"/>
-<pad name="27" x="19.05" y="21.59" drill="0.8"/>
-<pad name="28" x="16.51" y="21.59" drill="0.8"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ADAFRUIT_HUZZAH32">
-<pin name="RST" x="20.32" y="7.62" length="middle" rot="R180"/>
-<pin name="EN" x="20.32" y="10.16" length="middle" rot="R180"/>
-<pin name="VBUS" x="-2.54" y="27.94" length="middle" rot="R270"/>
-<pin name="VBAT" x="2.54" y="27.94" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-30.48" length="middle" rot="R90"/>
-<pin name="3V3" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO26" x="-20.32" y="12.7" length="middle"/>
-<pin name="GPIO25" x="-20.32" y="10.16" length="middle"/>
-<pin name="GPIO34" x="-20.32" y="7.62" length="middle"/>
-<pin name="GPIO39" x="-20.32" y="5.08" length="middle"/>
-<pin name="GPIO36" x="-20.32" y="2.54" length="middle"/>
-<pin name="GPIO4" x="-20.32" y="0" length="middle"/>
-<pin name="GPIO5/SCK" x="-20.32" y="-2.54" length="middle"/>
-<pin name="GPIO18/MOSI" x="-20.32" y="-5.08" length="middle"/>
-<pin name="GPIO19/MISO" x="-20.32" y="-7.62" length="middle"/>
-<pin name="GPIO16" x="-20.32" y="-10.16" length="middle"/>
-<pin name="GPIO17" x="-20.32" y="-12.7" length="middle"/>
-<pin name="GPIO21" x="-20.32" y="-15.24" length="middle"/>
-<wire x1="-15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-25.4" x2="15.24" y2="22.86" width="0.254" layer="94"/>
-<wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
-<pin name="GPIO13" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO12" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO27" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="GPIO33" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO15" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO32" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO14" x="20.32" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO22/SCL" x="20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO23/SDA" x="20.32" y="-15.24" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ADAFRUIT_HUZZAH32">
-<gates>
-<gate name="A" symbol="ADAFRUIT_HUZZAH32" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FEATHER">
-<connects>
-<connect gate="A" pin="3V3" pad="2"/>
-<connect gate="A" pin="EN" pad="27"/>
-<connect gate="A" pin="GND" pad="4"/>
-<connect gate="A" pin="GPIO12" pad="24"/>
-<connect gate="A" pin="GPIO13" pad="25"/>
-<connect gate="A" pin="GPIO14" pad="19"/>
-<connect gate="A" pin="GPIO15" pad="21"/>
-<connect gate="A" pin="GPIO16" pad="14"/>
-<connect gate="A" pin="GPIO17" pad="15"/>
-<connect gate="A" pin="GPIO18/MOSI" pad="12"/>
-<connect gate="A" pin="GPIO19/MISO" pad="13"/>
-<connect gate="A" pin="GPIO21" pad="16"/>
-<connect gate="A" pin="GPIO22/SCL" pad="18"/>
-<connect gate="A" pin="GPIO23/SDA" pad="17"/>
-<connect gate="A" pin="GPIO25" pad="6"/>
-<connect gate="A" pin="GPIO26" pad="5"/>
-<connect gate="A" pin="GPIO27" pad="23"/>
-<connect gate="A" pin="GPIO32" pad="20"/>
-<connect gate="A" pin="GPIO33" pad="22"/>
-<connect gate="A" pin="GPIO34" pad="7"/>
-<connect gate="A" pin="GPIO36" pad="9"/>
-<connect gate="A" pin="GPIO39" pad="8"/>
-<connect gate="A" pin="GPIO4" pad="10"/>
-<connect gate="A" pin="GPIO5/SCK" pad="11"/>
-<connect gate="A" pin="RST" pad="1"/>
-<connect gate="A" pin="VBAT" pad="28"/>
-<connect gate="A" pin="VBUS" pad="26"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply2">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -9182,6 +9058,202 @@ Spark Fun Electronics SKU : COM-00107</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="HUZZAH_ESP8266_BREAKOUT">
+<pad name="1" x="31.75" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="2" x="29.21" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="3" x="26.67" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="4" x="24.13" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="5" x="21.59" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="6" x="19.05" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="7" x="16.51" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="8" x="13.97" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="9" x="11.43" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="10" x="8.89" y="22.86" drill="1.0922" diameter="1.6002"/>
+<pad name="11" x="8.89" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="12" x="11.43" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="13" x="13.97" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="14" x="16.51" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="15" x="19.05" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="16" x="21.59" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="17" x="24.13" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="18" x="26.67" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="19" x="29.21" y="2.54" drill="1.0922" diameter="1.6002"/>
+<pad name="20" x="31.75" y="2.54" drill="1.0922" diameter="1.6002"/>
+<hole x="2.54" y="22.86" drill="3.2"/>
+<hole x="35.56" y="22.86" drill="3.2"/>
+<hole x="35.56" y="2.54" drill="3.2"/>
+<hole x="2.54" y="2.54" drill="3.2"/>
+<wire x1="0" y1="0" x2="38.1" y2="0" width="0.127" layer="21"/>
+<wire x1="38.1" y1="0" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="25.4" x2="0" y2="25.4" width="0.127" layer="21"/>
+<wire x1="0" y1="25.4" x2="0" y2="0" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HUZZAH_ESP8266_BREAKOUT">
+<pin name="TX" x="-22.86" y="7.62" length="middle" direction="out"/>
+<pin name="VBAT" x="0" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@2" x="2.54" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="RX" x="-22.86" y="5.08" length="middle" direction="in"/>
+<pin name="0" x="-22.86" y="0" length="middle"/>
+<pin name="2" x="-22.86" y="-2.54" length="middle"/>
+<pin name="4/SDA" x="-22.86" y="-5.08" length="middle"/>
+<pin name="LDO" x="22.86" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="RST" x="22.86" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="EN" x="22.86" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="A" x="22.86" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="15" x="-22.86" y="-10.16" length="middle"/>
+<pin name="GND@1" x="-2.54" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="V+" x="-5.08" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="3.3" x="5.08" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="12" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="13" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="14" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="16" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<wire x1="-17.78" y1="15.24" x2="17.78" y2="15.24" width="0.254" layer="94"/>
+<wire x1="17.78" y1="15.24" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
+<pin name="5/SCL" x="-22.86" y="-7.62" length="middle"/>
+<text x="7.62" y="-20.32" size="1.27" layer="96" ratio="6">Huzzah ESP8266 BOB</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HUZZAH_ESP8266_BREAKOUT">
+<gates>
+<gate name="A" symbol="HUZZAH_ESP8266_BREAKOUT" x="20.32" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="HUZZAH_ESP8266_BREAKOUT">
+<connects>
+<connect gate="A" pin="0" pad="16"/>
+<connect gate="A" pin="12" pad="6"/>
+<connect gate="A" pin="13" pad="7"/>
+<connect gate="A" pin="14" pad="5"/>
+<connect gate="A" pin="15" pad="14"/>
+<connect gate="A" pin="16" pad="4"/>
+<connect gate="A" pin="2" pad="15"/>
+<connect gate="A" pin="3.3" pad="13"/>
+<connect gate="A" pin="4/SDA" pad="17"/>
+<connect gate="A" pin="5/SCL" pad="18"/>
+<connect gate="A" pin="A" pad="2"/>
+<connect gate="A" pin="EN" pad="3"/>
+<connect gate="A" pin="GND@1" pad="10"/>
+<connect gate="A" pin="GND@2" pad="11"/>
+<connect gate="A" pin="LDO" pad="12"/>
+<connect gate="A" pin="RST" pad="1"/>
+<connect gate="A" pin="RX" pad="19"/>
+<connect gate="A" pin="TX" pad="20"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="VBAT" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_3_1-NC_PASTE_SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-0.4064" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.4064" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SMT-JUMPER_3_1-NC_PASTE">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="7.366" y="0.254" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="7.366" y="-2.032" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.254" layer="95">
+<vertex x="-1.524" y="0.762"/>
+<vertex x="-1.524" y="-1.524" curve="90"/>
+<vertex x="0" y="-3.048" curve="90"/>
+<vertex x="1.524" y="-1.524"/>
+<vertex x="1.524" y="0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER-SMT_3_1-NC_PASTE" prefix="JP">
+<description>&lt;h3&gt;Normally closed solder jumper (1 of 2 connections)&lt;/h3&gt;
+&lt;p&gt;This jumper has an aperture in the stencil to allow solder paste to bridge one of the two connections. One connection is normally closed (NC), while the other is normally open (NO). Wick off the solder to open the connection. Reapply solder to reclose the connection. Apply solder to the other side instead to change the current path.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_3_1-NC_PASTE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_3_1-NC_PASTE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_3_1-NC_PASTE_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9192,7 +9264,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="FRC696" deviceset="ADAFRUIT_HUZZAH32" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-FDD8780" value="35A/25V/8.5mΩ"/>
@@ -9343,15 +9414,17 @@ Spark Fun Electronics SKU : COM-00107</description>
 <part name="SUPPLY46" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY47" library="supply2" deviceset="+5V/1" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="+5V/1" device=""/>
+<part name="U$2" library="adafruit" deviceset="HUZZAH_ESP8266_BREAKOUT" device=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK"/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="A" x="66.04" y="50.8"/>
-<instance part="SUPPLY1" gate="GND" x="66.04" y="17.78"/>
-<instance part="SUPPLY2" gate="+5V" x="63.5" y="81.28"/>
+<instance part="SUPPLY1" gate="GND" x="53.34" y="27.94"/>
+<instance part="SUPPLY2" gate="+5V" x="50.8" y="76.2"/>
 <instance part="Q1" gate="NMOS" x="248.92" y="88.9"/>
 <instance part="SUPPLY3" gate="GND" x="251.46" y="81.28"/>
 <instance part="D1" gate="G$1" x="276.86" y="91.44" rot="R90"/>
@@ -9506,15 +9579,14 @@ Spark Fun Electronics SKU : COM-00107</description>
 <instance part="SUPPLY46" gate="+5V" x="297.18" y="198.12"/>
 <instance part="SUPPLY47" gate="G$1" x="325.12" y="-53.34"/>
 <instance part="SUPPLY48" gate="G$1" x="317.5" y="-134.62"/>
+<instance part="U$2" gate="A" x="55.88" y="53.34"/>
+<instance part="JP1" gate="G$1" x="7.62" y="48.26" rot="R180"/>
+<instance part="JP2" gate="G$1" x="17.78" y="45.72" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="U$1" gate="A" pin="GND"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-</segment>
 <segment>
 <pinref part="Q1" gate="NMOS" pin="S"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
@@ -9714,12 +9786,15 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="LED11" gate="G$1" pin="C"/>
 <pinref part="SUPPLY45" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="A" pin="GND@1"/>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<pinref part="U$2" gate="A" pin="GND@2"/>
+<wire x1="53.34" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<junction x="53.34" y="30.48"/>
+</segment>
 </net>
 <net name="+5V" class="0">
-<segment>
-<pinref part="U$1" gate="A" pin="VBUS"/>
-<pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="213.36" y1="190.5" x2="218.44" y2="190.5" width="0.1524" layer="91"/>
@@ -9734,6 +9809,10 @@ Spark Fun Electronics SKU : COM-00107</description>
 <segment>
 <pinref part="R39" gate="G$1" pin="2"/>
 <pinref part="SUPPLY46" gate="+5V" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="A" pin="V+"/>
+<pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10085,11 +10164,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U$1" gate="A" pin="GPIO22/SCL"/>
-<wire x1="86.36" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
-<label x="91.44" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="SCL"/>
 <wire x1="33.02" y1="-99.06" x2="27.94" y2="-99.06" width="0.1524" layer="91"/>
 <label x="27.94" y="-99.06" size="1.778" layer="95" rot="R180"/>
@@ -10104,13 +10178,18 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="127" y1="-30.48" x2="121.92" y2="-30.48" width="0.1524" layer="91"/>
 <label x="121.92" y="-30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="17.78" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="20.32" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
+<label x="5.08" y="43.18" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="SDA" class="0">
-<segment>
-<pinref part="U$1" gate="A" pin="GPIO23/SDA"/>
-<wire x1="86.36" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
-<label x="91.44" y="35.56" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="A" pin="SDA"/>
 <wire x1="33.02" y1="-111.76" x2="27.94" y2="-111.76" width="0.1524" layer="91"/>
@@ -10125,6 +10204,16 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="U5" gate="A" pin="SDA"/>
 <wire x1="127" y1="-48.26" x2="121.92" y2="-48.26" width="0.1524" layer="91"/>
 <label x="121.92" y="-48.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="7.62" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<label x="5.08" y="53.34" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
+<label x="20.32" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="K1" class="0">
@@ -10547,14 +10636,14 @@ Spark Fun Electronics SKU : COM-00107</description>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="U$1" gate="A" pin="3V3"/>
-<wire x1="86.36" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="63.5" x2="99.06" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="73.66" x2="99.06" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="-20.32" x2="78.74" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="-20.32" x2="78.74" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="78.74" y="-20.32"/>
+<pinref part="U$2" gate="A" pin="3.3"/>
+<wire x1="60.96" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -10573,6 +10662,20 @@ Spark Fun Electronics SKU : COM-00107</description>
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <pinref part="LED11" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="5/SCL"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="4/SDA"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
