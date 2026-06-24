@@ -9341,6 +9341,8 @@ Spark Fun Electronics SKU : COM-00107</description>
 <part name="LED11" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY47" library="supply2" deviceset="+5V/1" device=""/>
+<part name="SUPPLY48" library="supply2" deviceset="+5V/1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9502,6 +9504,8 @@ Spark Fun Electronics SKU : COM-00107</description>
 <instance part="LED11" gate="G$1" x="297.18" y="182.88"/>
 <instance part="SUPPLY45" gate="GND" x="297.18" y="175.26"/>
 <instance part="SUPPLY46" gate="+5V" x="297.18" y="198.12"/>
+<instance part="SUPPLY47" gate="G$1" x="325.12" y="-53.34"/>
+<instance part="SUPPLY48" gate="G$1" x="317.5" y="-134.62"/>
 </instances>
 <busses>
 </busses>
@@ -9593,14 +9597,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="327.66" y1="-73.66" x2="325.12" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="-73.66" x2="325.12" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="325.12" y="-76.2"/>
-<pinref part="J4" gate="A" pin="5"/>
-<wire x1="327.66" y1="-66.04" x2="325.12" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="-66.04" x2="325.12" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="325.12" y="-73.66"/>
-<pinref part="J4" gate="A" pin="6"/>
-<wire x1="327.66" y1="-63.5" x2="325.12" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="-63.5" x2="325.12" y2="-66.04" width="0.1524" layer="91"/>
-<junction x="325.12" y="-66.04"/>
 </segment>
 <segment>
 <pinref part="J5" gate="A" pin="1"/>
@@ -9611,14 +9607,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="320.04" y1="-157.48" x2="317.5" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="-157.48" x2="317.5" y2="-160.02" width="0.1524" layer="91"/>
 <junction x="317.5" y="-160.02"/>
-<pinref part="J5" gate="A" pin="5"/>
-<wire x1="320.04" y1="-149.86" x2="317.5" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="-149.86" x2="317.5" y2="-157.48" width="0.1524" layer="91"/>
-<junction x="317.5" y="-157.48"/>
-<pinref part="J5" gate="A" pin="6"/>
-<wire x1="320.04" y1="-147.32" x2="317.5" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="-147.32" x2="317.5" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="317.5" y="-149.86"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -10218,6 +10206,26 @@ Spark Fun Electronics SKU : COM-00107</description>
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <pinref part="SUPPLY44" gate="G$1" pin="+5V/1"/>
+</segment>
+<segment>
+<pinref part="J4" gate="A" pin="5"/>
+<wire x1="327.66" y1="-66.04" x2="325.12" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="J4" gate="A" pin="6"/>
+<wire x1="327.66" y1="-63.5" x2="325.12" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="-63.5" x2="325.12" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY47" gate="G$1" pin="+5V/1"/>
+<wire x1="325.12" y1="-63.5" x2="325.12" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="325.12" y="-63.5"/>
+</segment>
+<segment>
+<pinref part="J5" gate="A" pin="5"/>
+<wire x1="320.04" y1="-149.86" x2="317.5" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="J5" gate="A" pin="6"/>
+<wire x1="320.04" y1="-147.32" x2="317.5" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-147.32" x2="317.5" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY48" gate="G$1" pin="+5V/1"/>
+<wire x1="317.5" y1="-147.32" x2="317.5" y2="-137.16" width="0.1524" layer="91"/>
+<junction x="317.5" y="-147.32"/>
 </segment>
 </net>
 <net name="DAC0" class="0">
